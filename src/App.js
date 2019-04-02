@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
+import Main from './components/Main/Main';
 
 class App extends Component {
 
@@ -10,7 +11,10 @@ class App extends Component {
 
   render() {
     return (
-      <Navigation color={'#000000'}  />
+      <section className="content">
+        <Navigation color={'#000000'}  />
+        <Main />
+      </section>
     );
   }
 }

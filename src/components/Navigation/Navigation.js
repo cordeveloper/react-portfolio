@@ -28,11 +28,11 @@ class Navigation extends Component {
        </button>
 				<div className={"cn-wrapper " + (this.state.navState ? 'opened-nav' : '') } id="cn-wrapper">
 				    <ul>
-				      <li><a href="#"><span class="icon-picture"></span></a></li>
-				      <li><a href="#"><span class="icon-headphones"></span></a></li>
-				      <li><a href="#"><span class="icon-home"></span></a></li>
-				      <li><a href="#"><span class="icon-facetime-video"></span></a></li>
-				      <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+				      <li><a href="/about-me"><span class="icon-picture"></span></a></li>
+				      <li><a href="/contact"><span class="icon-headphones"></span></a></li>
+				      <li><a href="/"><span class="icon-home"></span></a></li>
+				      <li><a href="/projects"><span class="icon-facetime-video"></span></a></li>
+				      <li><a href="/resume"><span class="icon-envelope-alt"></span></a></li>
 				     </ul>
 				</div>
       </nav>
